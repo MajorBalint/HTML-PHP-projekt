@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    padding: 10px;
+}
+
+.container {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.color-switcher {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.theme-button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+body.light {
+    background: url("https://i.pinimg.com/originals/ee/27/d0/ee27d0f1c93e3295662df76ce9192021.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.navbar.light {
+    background-color: #ff6f00;
+    color: #000000; 
+}
+
+body.dark {
+    background: url("https://image.cnbcfm.com/api/v1/image/106429544-1583520556948gemera_exterior_5_high.jpg?v=1583520680") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.navbar.dark {
+    background-color: #555555; 
+    color: #ffffff;
+}
